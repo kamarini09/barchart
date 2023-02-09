@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#bars {
+  display: flex;
+  height: 100%;
+  transform: rotate(180deg);
+}
+
+.bar {
+  background-color: yellow;
+  width: 190px;
+  height: 200px;
+  border: 1px solid purple;
+  margin-right: 1px;
+}
